@@ -1,0 +1,124 @@
+@use "../../_styles/mixins" as *;
+
+[data-theme="dark"] .header {
+  background-color: rgba(75, 103, 138);
+}
+
+[data-theme="dark"] .header a {
+  color: rgb(240, 240, 240);
+}
+
+[data-theme="dark"] .nav__icon {
+  filter: invert(100%) sepia(0%) saturate(6%) hue-rotate(157deg)
+    brightness(100%) contrast(102%);
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: rgb(255, 255, 255);
+
+  @include media-desktop {
+    background-color: rgb(255, 255, 255, 0.95);
+  }
+
+  &--menu-open {
+    height: 100vh;
+
+    @include media-desktop {
+      height: 100%;
+    }
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo-link {
+    display: flex;
+    font-size: 3rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px 38px;
+
+    @include media-desktop {
+      font-size: 3.5rem;
+      padding: 20px 38px;
+    }
+  }
+
+  &__theme-toggle {
+    width: 30px;
+  }
+
+  &__theme-toggle-container {
+    position: absolute;
+    display: none;
+    cursor: pointer;
+
+    &--display {
+      display: block;
+      right: 16px;
+      bottom: 20px;
+
+      @include media-desktop {
+        right: auto;
+        bottom: auto;
+      }
+    }
+
+    @include media-desktop {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-right: 24px;
+      cursor: pointer;
+    }
+  }
+
+  &__theme-toggle {
+    display: block;
+    width: 60px;
+
+    filter: invert(85%) sepia(7%) saturate(2991%) hue-rotate(207deg)
+      brightness(107%) contrast(95%);
+
+    @include media-desktop {
+      width: 30px;
+    }
+  }
+}
+
+.nav {
+  @include media-desktop {
+    display: flex;
+  }
+
+  &__icon-container {
+    padding: 20px;
+
+    @include media-desktop {
+      display: none;
+    }
+  }
+
+  &__icon {
+    display: block;
+    cursor: pointer;
+    width: 50px;
+
+    filter: invert(38%) sepia(14%) saturate(1314%) hue-rotate(174deg)
+      brightness(96%) contrast(85%);
+  }
+}
