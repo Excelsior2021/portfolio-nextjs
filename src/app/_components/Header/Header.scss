@@ -13,6 +13,14 @@
     brightness(100%) contrast(102%);
 }
 
+[data-theme="dark"] .header__theme-toggle--dark {
+  display: none;
+}
+
+[data-theme="dark"] .header__theme-toggle--light {
+  display: block;
+}
+
 .header {
   position: sticky;
   top: 0;
@@ -93,6 +101,10 @@
 
     filter: invert(85%) sepia(7%) saturate(2991%) hue-rotate(207deg)
       brightness(107%) contrast(95%);
+
+    &--light {
+      display: none;
+    }
 
     @include media-desktop {
       width: 30px;

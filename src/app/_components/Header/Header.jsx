@@ -1,5 +1,5 @@
 "use client"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { useTheme } from "next-themes"
 import Link from "next/link"
 import Menu from "../Menu/Menu"
@@ -51,12 +51,13 @@ const Header = () => {
             }
             onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
             <img
-              className="header__theme-toggle"
-              src={
-                theme === "dark"
-                  ? "./assets/icons/light.svg"
-                  : "./assets/icons/dark.svg"
-              }
+              className="header__theme-toggle header__theme-toggle--light"
+              src="./assets/icons/light.svg"
+              alt="theme toggle"
+            />
+            <img
+              className="header__theme-toggle header__theme-toggle--dark"
+              src="./assets/icons/dark.svg"
               alt="theme toggle"
             />
           </div>
