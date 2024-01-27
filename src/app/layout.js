@@ -1,5 +1,5 @@
-import Head from "next/head"
 import Header from "./_components/Header/Header"
+import PendoProvider from "./_context/pendo-provider"
 import ThemeProvider from "./_context/theme-provider"
 import "./_styles/_globals.scss"
 
@@ -20,8 +20,10 @@ export default function RootLayout({ children }) {
           />
         </div>
         <ThemeProvider>
-          <Header />
-          <main className="main">{children}</main>
+          <PendoProvider>
+            <Header />
+            <main className="main">{children}</main>
+          </PendoProvider>
         </ThemeProvider>
       </body>
     </html>
