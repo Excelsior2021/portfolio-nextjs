@@ -1,4 +1,4 @@
-import "./index.scss"
+import "./landing.scss"
 
 const stack = [
   "React",
@@ -22,7 +22,7 @@ const Landing = () => (
         Hi, my name is Jonathan
       </p>
       <p data-test="landing_sub-heading" className="landing__sub-heading">
-        I'm a web developer
+        I love building functional UIs
       </p>
       <ul data-test="landing_stack" className="landing__stack">
         {stack.map(tech => (
