@@ -1,9 +1,9 @@
 "use client"
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import { useTheme } from "next-themes"
 import Link from "next/link"
-import Menu from "../Menu/Menu"
-import "./Header.scss"
+import Menu from "../menu/menu"
+import "./header.scss"
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false)

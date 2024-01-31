@@ -1,7 +1,7 @@
 "use client"
 import { useState } from "react"
 import Link from "next/link"
-import "./ProjectItem.scss"
+import "./project-item.scss"
 
 const ProjectItem = props => {
   const [cardOpen, setCardOpen] = useState(false)

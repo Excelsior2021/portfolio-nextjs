@@ -1,4 +1,4 @@
-const projects = [
+export default [
   {
     id: "smash-it",
     name: "Smash It!",
@@ -47,5 +47,3 @@ const projects = [
     github: "https://github.com/Excelsior2021/target-practice",
   },
 ]
-
-export default projects

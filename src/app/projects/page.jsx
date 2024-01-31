@@ -1,4 +1,5 @@
-import ProjectItem from "../_components/ProjectItem/ProjectItem"
+import Link from "next/link"
+import ProjectsList from "../_components/projects-list/project-list"
 import projects from "../_store/projects"
 import "./projects.scss"
 
@@ -11,29 +12,24 @@ const Projects = () => (
   <div className="projects">
     <p className="projects__text">
       Not an exhuastive list. Please check out my{" "}
-      <a
+      <Link
         className="projects__text-link"
         href="https://github.com/Excelsior2021"
         target="_blank"
         rel="noreferrer">
         GitHub
-      </a>{" "}
-      profile for more projects.
+      </Link>{" "}
+      profile for more projects.{" "}
+      <Link
+        className="projects__text-link"
+        href="/frontend-mentor"
+        rel="noreferrer">
+        Frontend Mentor challenges
+      </Link>
+      .
     </p>
-    <ul className="projects__list">
-      {projects.map(project => (
-        <ProjectItem
-          key={project.name}
-          name={project.name}
-          description={project.description}
-          img={`./assets/project_images/${project.id}.png`}
-          stack={project.stack}
-          url={project.url}
-          alt={project.alt}
-          github={project.github}
-        />
-      ))}
-    </ul>
+
+    <ProjectsList projects={projects} assetLocation="projects_images" />
   </div>
 )
 
