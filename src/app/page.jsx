@@ -2,17 +2,13 @@ import "./landing.scss"
 
 const stack = [
   "React",
-  "HTML",
-  "CSS",
+  "SolidJS",
   "SASS",
   "JavaScript",
   "TypeScript",
   "Next.js",
-  "Jest",
   "Node.js",
   "Python",
-  "Git",
-  "SolidJS",
 ]
 
 const Landing = () => (
