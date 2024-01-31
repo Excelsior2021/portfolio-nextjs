@@ -13,12 +13,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <link rel="icon" href="icon.png" sizes="any" />
       <body>
-        {/* <div className="counter">
+        <div className="counter">
           <img
             src="https://www.free-website-hit-counter.com/c.php?d=9&id=142620&s=5"
             alt="Hit Counter"
           />
-        </div> */}
+        </div>
         <ThemeProvider>
           <PendoProvider>
             <Header />
