@@ -1,7 +1,7 @@
 "use client"
 import { usePathname } from "next/navigation"
 import Link from "next/link"
-import "./Menu.scss"
+import "./menu.scss"
 
 const pages = ["bio", "projects", "contact"]
 
