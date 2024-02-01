@@ -4,7 +4,7 @@ export default [
     name: "View App POC",
     stack: "React, SASS, TypeScript",
     alt: "view app POC",
-    url: "https://view-web-app-client.vercel.app",
+    url: "https://jonathankila-fm-view.vercel.app",
     github: "placeholder",
   },
   {
@@ -12,7 +12,7 @@ export default [
     name: "Space Tourism App POC",
     stack: "React, SASS, TypeScript",
     alt: "space tourism app POC",
-    url: "https://space-tourism-poc.vercel.app",
+    url: "https://jonathankila-fm-space-tourism.vercel.app",
     github: "placeholder",
   },
   {
@@ -20,7 +20,7 @@ export default [
     name: "Multi Step Form",
     stack: "SolidJS, SASS, TypeScript",
     alt: "multi step form",
-    url: "https://multi-step-form-lorem.vercel.app",
+    url: "https://jonathankila-fm-multi-step-form.vercel.app",
     github: "placeholder",
   },
   {
@@ -36,7 +36,7 @@ export default [
     name: "News Homepage",
     stack: "HTML, SASS, JavaScript",
     alt: "news homepage",
-    url: "https://excelsior2021.github.io/w-news-homepage",
+    url: "https://jonathankila-fm-news-homepage.vercel.app",
     github: "placeholder",
   },
   {
@@ -44,7 +44,7 @@ export default [
     name: "Expenses Chart Component",
     stack: "HTML, SASS, JavaScript",
     alt: "expenses chart component",
-    url: "https://excelsior2021.github.io/expenses-chart",
+    url: "https://jonathankila-fm-expenses-chart.vercel.app/",
     github: "placeholder",
   },
   {
@@ -52,7 +52,7 @@ export default [
     name: "Interative Rating Component",
     stack: "HTML, CSS, JavaScript",
     alt: "interative rating component",
-    url: "https://excelsior2021.github.io/interactive-rating-component",
+    url: "https://jonathankila-fm-interactive-card.vercel.app/",
     github: "placeholder",
   },
   {
@@ -60,7 +60,7 @@ export default [
     name: "Skilled E-learning Landing Page",
     stack: "HTML, SASS, JavaScript",
     alt: "skilled e-learning landing page",
-    url: "https://excelsior2021.github.io/skilled-e-learning-landing-page",
+    url: "https://jonathankila-fm-skilled-elearning.vercel.app",
     github: "placeholder",
   },
   {
@@ -68,7 +68,7 @@ export default [
     name: "Product Preview Card Component",
     stack: "HTML, CSS, JavaScript",
     alt: "product preview card component",
-    url: "https://excelsior2021.github.io/product-preview-card",
+    url: "https://jonathankila-fm-product-preview.vercel.app/",
     github: "placeholder",
   },
 ]
