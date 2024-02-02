@@ -4,40 +4,40 @@
     "name": "View App POC",
     "stack": "React, SASS, TypeScript",
     "alt": "view app POC",
-    "url": "https://github.com/Excelsior2021/frontend-mentor/tree/main/view-app",
-    "github": "placeholder"
+    "url": "https://jonathankila-fm-view.vercel.app",
+    "github": "https://github.com/Excelsior2021/frontend-mentor/tree/main/view-app"
   },
   {
     "id": "space-tourism",
     "name": "Space Tourism App POC",
     "stack": "React, SASS, TypeScript",
     "alt": "space tourism app POC",
-    "url": "https://github.com/Excelsior2021/frontend-mentor/tree/main/space-tourism-app",
-    "github": "placeholder"
+    "url": "https://jonathankila-fm-space-tourism.vercel.app",
+    "github": "https://github.com/Excelsior2021/frontend-mentor/tree/main/space-tourism-app"
   },
   {
     "id": "multi-step-form",
     "name": "Multi Step Form",
     "stack": "SolidJS, SASS, TypeScript",
     "alt": "multi step form",
-    "url": "https://github.com/Excelsior2021/frontend-mentor/tree/main/multi-step-form",
-    "github": "placeholder"
+    "url": "https://jonathankila-fm-multi-step-form.vercel.app",
+    "github": "https://github.com/Excelsior2021/frontend-mentor/tree/main/multi-step-form"
   },
   {
     "id": "job-listings",
     "name": "Job Listings App POC",
     "stack": "React, SASS, TypeScript, Redux Toolkit",
     "alt": "job listings app POC",
-    "url": "https://github.com/Excelsior2021/frontend-mentor/tree/main/job-listings-site",
-    "github": "placeholder"
+    "url": "https://job-listings-poc.vercel.app",
+    "github": "https://github.com/Excelsior2021/frontend-mentor/tree/main/job-listings-site"
   },
   {
     "id": "news-homepage",
     "name": "News Homepage",
     "stack": "HTML, SASS, JavaScript",
     "alt": "news homepage",
-    "url": "https://github.com/Excelsior2021/frontend-mentor/tree/main/news-homepage",
-    "github": "placeholder"
+    "url": "https://jonathankila-fm-news-homepage.vercel.app",
+    "github": "https://github.com/Excelsior2021/frontend-mentor/tree/main/news-homepage"
   },
   {
     "id": "expenses-chart",
@@ -52,23 +52,23 @@
     "name": "Interative Rating Component",
     "stack": "HTML, CSS, JavaScript",
     "alt": "interative rating component",
-    "url": "https://github.com/Excelsior2021/frontend-mentor/tree/main/interactive-rating-component",
-    "github": "placeholder"
+    "url": "https://jonathankila-fm-interactive-card.vercel.app/",
+    "github": "https://github.com/Excelsior2021/frontend-mentor/tree/main/interactive-rating-component"
   },
   {
     "id": "e-learning",
     "name": "Skilled E-learning Landing Page",
     "stack": "HTML, SASS, JavaScript",
     "alt": "skilled e-learning landing page",
-    "url": "https://github.com/Excelsior2021/frontend-mentor/tree/main/skilled-elearning-landing-page",
-    "github": "placeholder"
+    "url": "https://jonathankila-fm-skilled-elearning.vercel.app",
+    "github": "https://github.com/Excelsior2021/frontend-mentor/tree/main/skilled-elearning-landing-page"
   },
   {
     "id": "product-preview-card",
     "name": "Product Preview Card Component",
     "stack": "HTML, CSS, JavaScript",
     "alt": "product preview card component",
-    "url": "https://github.com/Excelsior2021/frontend-mentor/tree/main/product-preview-card-component",
-    "github": "placeholder"
+    "url": "https://jonathankila-fm-product-preview.vercel.app/",
+    "github": "https://github.com/Excelsior2021/frontend-mentor/tree/main/product-preview-card-component"
   }
 ]
