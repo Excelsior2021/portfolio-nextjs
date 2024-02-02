@@ -1,0 +1,74 @@
+[
+  {
+    "id": "view",
+    "name": "View App POC",
+    "stack": "React, SASS, TypeScript",
+    "alt": "view app POC",
+    "url": "https://github.com/Excelsior2021/frontend-mentor/tree/main/view-app",
+    "github": "placeholder"
+  },
+  {
+    "id": "space-tourism",
+    "name": "Space Tourism App POC",
+    "stack": "React, SASS, TypeScript",
+    "alt": "space tourism app POC",
+    "url": "https://github.com/Excelsior2021/frontend-mentor/tree/main/space-tourism-app",
+    "github": "placeholder"
+  },
+  {
+    "id": "multi-step-form",
+    "name": "Multi Step Form",
+    "stack": "SolidJS, SASS, TypeScript",
+    "alt": "multi step form",
+    "url": "https://github.com/Excelsior2021/frontend-mentor/tree/main/multi-step-form",
+    "github": "placeholder"
+  },
+  {
+    "id": "job-listings",
+    "name": "Job Listings App POC",
+    "stack": "React, SASS, TypeScript, Redux Toolkit",
+    "alt": "job listings app POC",
+    "url": "https://github.com/Excelsior2021/frontend-mentor/tree/main/job-listings-site",
+    "github": "placeholder"
+  },
+  {
+    "id": "news-homepage",
+    "name": "News Homepage",
+    "stack": "HTML, SASS, JavaScript",
+    "alt": "news homepage",
+    "url": "https://github.com/Excelsior2021/frontend-mentor/tree/main/news-homepage",
+    "github": "placeholder"
+  },
+  {
+    "id": "expenses-chart",
+    "name": "Expenses Chart Component",
+    "stack": "HTML, SASS, JavaScript",
+    "alt": "expenses chart component",
+    "url": "https://jonathankila-fm-expenses-chart.vercel.app/",
+    "github": "https://github.com/Excelsior2021/frontend-mentor/tree/main/expenses-chart-component"
+  },
+  {
+    "id": "interactive-rating",
+    "name": "Interative Rating Component",
+    "stack": "HTML, CSS, JavaScript",
+    "alt": "interative rating component",
+    "url": "https://github.com/Excelsior2021/frontend-mentor/tree/main/interactive-rating-component",
+    "github": "placeholder"
+  },
+  {
+    "id": "e-learning",
+    "name": "Skilled E-learning Landing Page",
+    "stack": "HTML, SASS, JavaScript",
+    "alt": "skilled e-learning landing page",
+    "url": "https://github.com/Excelsior2021/frontend-mentor/tree/main/skilled-elearning-landing-page",
+    "github": "placeholder"
+  },
+  {
+    "id": "product-preview-card",
+    "name": "Product Preview Card Component",
+    "stack": "HTML, CSS, JavaScript",
+    "alt": "product preview card component",
+    "url": "https://github.com/Excelsior2021/frontend-mentor/tree/main/product-preview-card-component",
+    "github": "placeholder"
+  }
+]
