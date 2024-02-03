@@ -9,7 +9,7 @@ const ProjectsList = ({ projects, assetLocation }) => (
         key={project.name}
         name={project.name}
         description={project.description}
-        img={`./assets/${assetLocation}/${project.id}.png`}
+        img={`/assets/${assetLocation}/${project.id}.png`}
         stack={project.stack}
         url={project.url}
         alt={project.alt}

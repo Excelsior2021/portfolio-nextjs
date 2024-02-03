@@ -1,6 +1,7 @@
 "use client"
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import "./project-item.scss"
 
 const ProjectItem = props => {
@@ -39,11 +40,17 @@ const ProjectItem = props => {
               : "project__body project__body--close project__body--desktop"
           }>
           <div className="project__image-container">
-            <Link href={props.url} target="_blank" rel="noreferrer">
-              <img
+            <Link
+              className="project__image-link"
+              href={props.url}
+              target="_blank"
+              rel="noreferrer">
+              <Image
                 className="project__image"
                 src={props.img}
                 alt={props.alt}
+                fill
+                quality={25}
                 role="project image and link to project site"
               />
             </Link>
