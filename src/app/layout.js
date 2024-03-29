@@ -1,5 +1,4 @@
 import Header from "./_components/header/header"
-import PendoProvider from "./_context/pendo-provider"
 import ThemeProvider from "./_context/theme-provider"
 import "./_styles/_globals.scss"
 
@@ -20,10 +19,8 @@ export default function RootLayout({ children }) {
           />
         </div>
         <ThemeProvider>
-          <PendoProvider>
-            <Header />
-            <main className="main">{children}</main>
-          </PendoProvider>
+          <Header />
+          <main className="main">{children}</main>
         </ThemeProvider>
       </body>
     </html>
