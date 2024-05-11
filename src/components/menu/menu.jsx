@@ -2,6 +2,7 @@
 import { usePathname } from "next/navigation"
 import Link from "next/link"
 import "./menu.scss"
+import { useEffect } from "react"
 
 const pages = ["bio", "projects", "contact"]
 
@@ -18,20 +19,19 @@ const MenuItem = ({ page, pathname, closeModal }) => (
   </li>
 )
 
-const Menu = props => {
+const Menu = ({ displayMenu, closeModal }) => {
   const pathname = usePathname()
-
   return (
     <div
-      className={props.displayMenu ? "menu menu--display" : "menu"}
-      onClick={props.closeModal}>
+      className={displayMenu ? "menu menu--display" : "menu"}
+      onClick={closeModal}>
       <ul className="menu__list">
         {pages.map(page => (
           <MenuItem
             key={page}
             page={page}
             pathname={pathname}
-            closeModal={props.closeModal}
+            closeModal={closeModal}
           />
         ))}
       </ul>

@@ -1,4 +1,4 @@
-@use "../_styles/mixins" as *;
+@use "@/styles/mixins" as *;
 
 [data-theme="dark"] .contact__icons-img {
   filter: invert(100%) sepia(0%) saturate(6%) hue-rotate(157deg)

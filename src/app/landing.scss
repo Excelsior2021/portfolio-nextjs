@@ -1,4 +1,4 @@
-@use "./_styles/mixins" as *;
+@use "@/styles/_mixins" as *;
 
 $dropdown-time: 1.5s;
 
@@ -25,7 +25,6 @@ $dropdown-time: 1.5s;
   &__sub-heading {
     font-size: 2rem;
     font-weight: bold;
-    // margin: 16px;
 
     @include media-desktop {
       font-size: 2.5rem;
@@ -34,6 +33,7 @@ $dropdown-time: 1.5s;
 
   &__stack {
     margin-top: 50px;
+    overflow: hidden;
   }
 
   &__stack-item {
@@ -61,7 +61,6 @@ $dropdown-time: 1.5s;
   }
 }
 
-/*KEYFRAMES*/
 @keyframes dropdown {
   0% {
     transform: translateY(-400px);

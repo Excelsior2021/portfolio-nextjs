@@ -1,6 +1,6 @@
 import Link from "next/link"
-import ProjectsList from "../_components/projects-list/project-list"
-import projects from "../_store/projects.json"
+import ProjectsList from "@/components/projects-list/project-list"
+import projects from "@/store/projects.json"
 import "./projects.scss"
 
 export const metadata = {

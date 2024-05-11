@@ -1,4 +1,4 @@
-@use "../../_styles/mixins" as *;
+@use "@/styles/mixins" as *;
 
 [data-theme="dark"] .project {
   background-color: rgba(75, 103, 138, 0.95);

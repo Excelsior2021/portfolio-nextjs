@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import "./bio.scss"
 
 export const metadata = {
@@ -9,10 +10,12 @@ export const metadata = {
 const Bio = () => (
   <div className="bio">
     <div className="bio__headshot">
-      <img
+      <Image
         className="bio__img"
-        src="./assets/images/headshot.jpg"
+        src="/assets/images/headshot.jpg"
         alt="jonathan kila"
+        width={200}
+        height={300}
       />
     </div>
 
@@ -34,11 +37,11 @@ const Bio = () => (
       rel="noreferrer"
       className="bio__link">
       <div className="bio__codewars">
-        <label className="bio__codewars-label">Codewars</label>
+        <label className="bio__codewars--label">Codewars</label>
         <img
           src="https://www.codewars.com/users/excelsior2021/badges/large"
           alt="codewars badge"
-          className="bio__codewars-img"
+          className="bio__codewars--img"
         />
       </div>
     </Link>

@@ -1,6 +1,6 @@
 import Link from "next/link"
-import ProjectsList from "../_components/projects-list/project-list"
-import challenges from "../_store/frontend-mentor-challenges.json"
+import ProjectsList from "@/components/projects-list/project-list"
+import challenges from "@/store/frontend-mentor-challenges.json"
 import "./frontend-mentor.scss"
 
 const FrontendMentor = () => (

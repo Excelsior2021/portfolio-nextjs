@@ -1,4 +1,3 @@
-"use-client"
 import ProjectItem from "../project-item/project-item"
 import "./project-list.scss"
 

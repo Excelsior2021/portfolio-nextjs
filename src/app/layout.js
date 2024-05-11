@@ -1,6 +1,6 @@
-import Header from "./_components/header/header"
-import ThemeProvider from "./_context/theme-provider"
-import "./_styles/_globals.scss"
+import Header from "@/components/header/header"
+import ThemeProvider from "@/context/theme-provider"
+import "@/styles/_globals.scss"
 
 export const metadata = {
   title: "Jonathan Kila | Web Developer",

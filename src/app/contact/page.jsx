@@ -1,5 +1,6 @@
 import Link from "next/link"
 import "./contact.scss"
+import Image from "next/image"
 
 const contacts = [
   {
@@ -40,11 +41,13 @@ const Contact = () => (
           href={link}
           target="_blank"
           rel="noreferrer">
-          <img
+          <Image
             className="contact__icons-img"
             alt={alt}
             src={img}
             aria-label={ariaLabel}
+            width={100}
+            height={100}
           />
         </Link>
       ))}
