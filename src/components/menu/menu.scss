@@ -5,12 +5,11 @@
 }
 
 .menu {
-  position: absolute;
+  position: fixed;
   display: none;
   left: 0;
   width: 100%;
   background-color: inherit;
-  overflow-y: auto;
 
   &--display {
     display: block;

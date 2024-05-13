@@ -25,13 +25,13 @@ body {
   min-height: 300px;
 }
 
-.body--menu-open {
-  overflow: hidden;
+// .body--menu-open {
+//   overflow: hidden;
 
-  @include media-desktop {
-    overflow: auto;
-  }
-}
+//   @include media-desktop {
+//     overflow: auto;
+//   }
+// }
 
 a {
   color: rgb(75, 103, 138);
