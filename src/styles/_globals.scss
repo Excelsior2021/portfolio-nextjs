@@ -25,14 +25,6 @@ body {
   min-height: 300px;
 }
 
-// .body--menu-open {
-//   overflow: hidden;
-
-//   @include media-desktop {
-//     overflow: auto;
-//   }
-// }
-
 a {
   color: rgb(75, 103, 138);
 }
@@ -62,4 +54,12 @@ a {
 
 .counter {
   display: none;
+}
+
+/* disable blue highlight on click mobile */
+button,
+a,
+img {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }

@@ -39,7 +39,7 @@
   &--menu-open {
     position: fixed;
     right: 0;
-    height: 100vh;
+    min-height: 100vh;
 
     @include media-desktop {
       position: sticky;

@@ -10,23 +10,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 48px;
 
     @include media-desktop {
       flex-direction: row;
       justify-content: center;
-      margin: 120px auto;
+      gap: 96px;
     }
   }
 
   &__icons-link {
-    margin: 16px;
-
     &:hover {
       transform: scale(1.1);
-    }
-
-    @include media-desktop {
-      margin: 36px;
     }
   }
 
