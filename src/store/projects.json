@@ -2,11 +2,11 @@
   {
     "id": "smash-it",
     "name": "Smash It!",
-    "description": "Performance tracking for table tennis. Inspired by the competitve nature of table tennis during a web development course.",
-    "stack": "React, SASS, Node.js, Express.js, Knex.js, Objection.js, MySQL ",
+    "description": "Performance tracking for table tennis. A full-stack web application.",
+    "stack": "Next.js, NextAuth.js, TypeScript, Tailwind CSS, daisyUI, Prisma, PostgreSQL",
     "alt": "Smash It App",
-    "url": "https://smash-it.vercel.app",
-    "github": "https://github.com/Excelsior2021/smash-it"
+    "url": "https://smash-it-table-tennis.com",
+    "github": "#"
   },
   {
     "id": "pairs",
