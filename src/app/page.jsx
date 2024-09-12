@@ -2,8 +2,10 @@ import "./landing.scss"
 
 const stack = [
   "React",
+  "React Native",
   "SolidJS",
   "SASS",
+  "TailwindCSS",
   "JavaScript",
   "TypeScript",
   "Next.js",
